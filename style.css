@@ -61,3 +61,15 @@
     background-color: #e9ecef;
     border-radius: 8px;
 }
+/* Responsive design pt Mobile */
+@media (max-width: 768px){
+    /* vom aseza cardurile pe verticala*/
+    .products-grid{
+        flex-direction: column;
+        align-items: center;
+        padding: 0 10px;
+    }
+    .product-card{
+        width: 100%;
+    }
+}
